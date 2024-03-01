@@ -31,6 +31,7 @@ def create_board():
 
 # calculate the equity of all the hands against each other based on the board
 def calculate_equity(hands, board):
+    # factor in for chopped board percentage and that river will always be 100 vs 0 or 100 vs 100 (chop)
     pass
 
 # main function for executing poker equity percentages
@@ -46,10 +47,10 @@ def main():
     # input all hands of players that are playing this hand
 
     # create the board at the desired phase
-    board = 
+    board = create_board()
 
     # calculate the equity of the hands against each other
-    hand_equity = 
+    hand_equity = "100%"
 
     # print the equity layout of hands head to head
 
